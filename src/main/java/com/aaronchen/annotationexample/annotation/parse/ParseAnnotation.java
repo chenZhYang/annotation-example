@@ -1,8 +1,8 @@
-package com.aaronchen.annotationexample.parse;
+package com.aaronchen.annotationexample.annotation.parse;
 
 
 import com.aaronchen.annotationexample.annotation.MethodInfo;
-import com.aaronchen.annotationexample.use.UseAnnotation;
+import com.aaronchen.annotationexample.annotation.use.UseAnnotation;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
@@ -15,7 +15,7 @@ import java.lang.reflect.Method;
  * 解析注解
  */
 public class ParseAnnotation {
-    static String className = "com.aaronchen.annotationexample.use.UseAnnotation";
+    static String className = "com.aaronchen.annotationexample.annotation.use.UseAnnotation";
 
     /**
      * 打印出className 类中所有的注解信息，该方法只打印了 Type 类型的注解

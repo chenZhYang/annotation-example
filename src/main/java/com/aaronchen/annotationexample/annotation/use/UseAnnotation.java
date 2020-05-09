@@ -1,4 +1,4 @@
-package com.aaronchen.annotationexample.use;
+package com.aaronchen.annotationexample.annotation.use;
 
 import com.aaronchen.annotationexample.annotation.MethodInfo;
 
