@@ -17,7 +17,7 @@ class AnnotationExampleApplicationTests {
         boolean flag = redisService.lock("test","123");
         System.out.println("插入结果 = "+flag);
         System.out.println("get="+redisService.get("test"));
-        flag = redisService.unlock("test","123");
+        flag = redisService.unlock("test","1231");
         System.out.println("删除结果 = "+flag);
     }
 
