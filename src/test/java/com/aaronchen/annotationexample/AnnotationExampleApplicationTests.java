@@ -21,4 +21,13 @@ class AnnotationExampleApplicationTests {
         System.out.println("删除结果 = "+flag);
     }
 
+    public static void main(String[] args) {
+        println(System.getProperties());
+        println(System.getProperty("user.home"));
+        println(System.getProperty("user.age","3"));
+    }
+
+    static void println(Object object){
+        System.out.println(object);
+    }
 }
